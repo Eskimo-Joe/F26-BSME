@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"eea00c636c44279f","type":"text","text":"## M\n[[HT]]\n[[FEA]]\n## Tu\n[[Ethics]]\n[[SD]]\n## W\n[[HT]]\n[[FEA]]\n## Th\n[[Ethics]]\n[[SD]]\n## F\n[[SD]]","x":-240,"y":-120,"width":180,"height":600},
+		{"id":"00eaf692a1d26ea3","x":-60,"y":-120,"width":500,"height":600,"type":"file","file":"F26-BSME/MISC/HW/HW.base"}
+	],
+	"edges":[]
+}
