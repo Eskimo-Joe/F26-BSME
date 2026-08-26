@@ -9,15 +9,21 @@ M/W 11a - 12:15
 
 ## Notes
 
-| Date | Topic | Link |
-| ---- | ----- | ---- |
-| 8/24 |       |      |
-|      |       |      |
-|      |       |      |
-|      |       |      |
+| Date | Topic | Link   |
+| ---- | ----- | ------ |
+| 8/24 | intro | [[HT-N1]] |
+|      |       |        |
+|      |       |        |
+|      |       |        |
 
 ## Assignments
 
+```dataview
+table date, submitted, src
+from "F26-BSME/MISC/HW" and #HT 
+sort due
+sort submitted
+```
 
 
 

@@ -8,15 +8,20 @@ Syllabus
 
 ## Notes
 
-| Date | Topic | Link |
-| ---- | ----- | ---- |
-| 8/25 |       |      |
-| 8/27 |       |      |
-| 9/01 |       |      |
-| 9/03 |       |      |
-|      |       |      |
+| Date | Topic | Link      |
+| ---- | ----- | --------- |
+| 8/25 |       | [[SD-N1]] |
+| 8/27 |       |           |
+| 9/01 |       |           |
+| 9/03 |       |           |
+|      |       |           |
 
 ## Assignments
 
-
+```dataview
+table date, submitted, src
+from "F26-BSME/MISC/HW" and #SD 
+sort due
+sort submitted
+```
 
