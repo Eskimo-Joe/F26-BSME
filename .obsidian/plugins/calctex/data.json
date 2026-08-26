@@ -1,0 +1,6 @@
+{
+  "calculationTriggerString": "==",
+  "completionTriggerKey": "Enter",
+  "multiplicationSymbol": "*",
+  "groupSeparator": "'"
+}

@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.startsWith("F26-BSME/MISC/HW")
+        - file.name != "HW.base"
+        - submitted != "T"
+    order:
+      - file.name
+      - class
+      - date
+      - submitted
+    sort:
+      - property: date
+        direction: ASC
+    columnSize:
+      file.tags: 110

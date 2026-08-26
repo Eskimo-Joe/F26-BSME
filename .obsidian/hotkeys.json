@@ -1,0 +1,18 @@
+{
+  "buttons:button-maker": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-projects:show-projects": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ]
+}

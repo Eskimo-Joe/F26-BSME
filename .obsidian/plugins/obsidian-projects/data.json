@@ -1,0 +1,810 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "due": {
+          "options": []
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "00/00 FRC",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 202
+              },
+              "tags": {
+                "hide": true
+              },
+              "date": {
+                "hide": true,
+                "width": 103
+              }
+            },
+            "orderFields": [
+              "name",
+              "Status",
+              "Complete",
+              "due",
+              "date"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "Status",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "name",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "5184b3c4-ae2e-49b7-988f-e33ec25e0741",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "includeFields": [
+              "asignee",
+              "due"
+            ],
+            "columns": {
+              "InProgress": {
+                "weight": 0
+              },
+              "Next": {
+                "weight": 1
+              },
+              "Waiting": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "70d6f24b-c3cb-44f3-85c1-fc60817d63df",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "Complete"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "68aba9e5-2140-42f4-b1a9-2862e63bd7bc",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "a1fc17a7-401c-4e12-b954-83c96a0b97cd",
+      "name": "00 FRC2024"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "00/00 MATE",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "Status",
+              "due",
+              "Complete"
+            ],
+            "fieldConfig": {
+              "date": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 219
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "3670bc46-f39e-42d0-9e04-acf30f106208",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "includeFields": [
+              "due"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "0164df73-600d-4e3d-9fdc-f4fbaed89965",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "Complete"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a12af0a7-7ab6-4535-9db2-c41d5f38213d",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "391517ad-f6b2-46fe-a7f9-6eec10d2c589",
+      "name": "00 MATE"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "00/00 Luna",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "asignee": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "91ba7b15-1c5a-41a1-83f2-3e96ecfdd58f",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "includeFields": [
+              "due"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "3810ddf6-7644-4b1e-a242-a84a85669dfb",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "Complete"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c9d07fb6-a41d-4036-a00f-bc5078318f86",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "3a047c4c-5d5c-438d-87bb-bf715140020d",
+      "name": "00 LUNABOTICS"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "00/updn",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "date": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "Status",
+              "due",
+              "Complete"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "Status",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "161ed47d-cd34-48e4-9213-7ffa945a76c1",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "includeFields": [
+              "due"
+            ],
+            "columns": {
+              "InProgress": {
+                "weight": 0
+              },
+              "Next": {
+                "weight": 1
+              },
+              "Waiting": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "a948d79f-acea-485c-9e8a-bcbed4352f2c",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "Complete"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "586b06c7-45be-4af3-98c4-6508ae665741",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "8094dd4e-da57-4232-bb5a-6a48e76f671a",
+      "name": "00 updn"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE Status, due, Complete\nFROM \"00\"\nWHERE due > date(today)"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": false
+              },
+              "aliases": {
+                "hide": true
+              },
+              "asignee": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "tag": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "File",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "ee5cc69f-0a49-4196-877d-a1e540f42b61",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "93a4b579-8ba7-4a90-94df-ef70704d06a3",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "64803e3f-fbb1-4354-93d8-cec0260c2e30",
+      "name": "00"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "0/0 Ideas",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e7f01e3f-7d04-4e5d-8960-7ef1632178f6",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "c64716e3-dce8-4c0d-87a6-f15d0ed604c5",
+      "name": "0 Ideas"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "0/0 Research Dump",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1579d5e0-3b98-4ac0-aa2b-49429ba454c1",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "18dab20c-41b0-4525-8cde-4772e58c6cf0",
+      "name": "0 Research"
+    },
+    {
+      "fieldConfig": {
+        "link": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "0 0 0/0 0 0 Events",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3adb0190-4232-4f4c-988a-4c5831e80371",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "47e2d0c8-ab1e-4464-8d01-48a06aef3e65",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "5114bbb2-80ab-4e96-86fb-22b592386637",
+      "name": "0 0 0 Events"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Fall-2025-BSME-CSULB/MISC/HW",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "Fall-2025-BSME-CSULB/00 HW",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "tags": {
+                "hide": false
+              },
+              "path": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "link": {
+                "hide": true
+              },
+              "doc": {
+                "width": 106,
+                "hide": true
+              },
+              "src": {
+                "width": 114,
+                "hide": true
+              },
+              "submitted": {
+                "width": 149
+              }
+            },
+            "orderFields": [
+              "name",
+              "due",
+              "doc",
+              "src",
+              "submitted",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "002e6ff2-728b-4333-b41f-201b0c141d49",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5daab795-99aa-4a9f-8cd8-8e1d8ae97cd1",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "a9f4a0a6-5b77-40e9-9f10-70e790f4aa2f",
+      "name": "Homework"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [
+      {
+        "project": "a1fc17a7-401c-4e12-b954-83c96a0b97cd"
+      },
+      {
+        "project": "a1fc17a7-401c-4e12-b954-83c96a0b97cd",
+        "view": "68aba9e5-2140-42f4-b1a9-2862e63bd7bc"
+      },
+      {
+        "project": "a1fc17a7-401c-4e12-b954-83c96a0b97cd",
+        "view": "5184b3c4-ae2e-49b7-988f-e33ec25e0741"
+      },
+      {
+        "project": "a9f4a0a6-5b77-40e9-9f10-70e790f4aa2f"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}
