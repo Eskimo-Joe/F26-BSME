@@ -35,4 +35,32 @@ $\vec{F}$ is the sum of all forces applied to a particle
 condition for equilibrium is $F=0$
 
 
+## 8-26
+
+solve reactions of a simply supported beam using equilibrium method and virtual work method
+
+$$\sum M_{A}=0$$
+$$B_{y}(10')-20k(2')=0\to B_{y}=4kips$$
+$$\sum F_{y}=0$$
+$$A_{y}+B_{y}-20k=0\to A_{y}=16kips$$
+
+equilibrium method:
+for beam to be in equilibrium the following must be true
+$$dU=\sum F\cdot dr=0$$
+translate the beam an arbitrary amount with a slight tilt
+use the displacement as dr values, should all be equal
+
+$$dU=A_{y}\delta y_{A}+A_{x}\delta x_{A}-20k(\delta y_{C})+B_{y}\delta y_{B}=0$$
+
+use similar triangle relation
+...
+$$\delta y_{c}=0.2(y_{B}-y_{A})+y_{A}=0.2y_{B}+0.8y_{A}$$
+plug back into original equation
+
+![[Pasted image 20260826193438.png|500]]
+
+
+
+
+
 

@@ -8,11 +8,13 @@ Tu/Th 12:30-1:45
 
 ## Notes
 
-| Date | Topic | Link          |
-| ---- | ----- | ------------- |
-| 8/25 | Intro | [[Ethics-N1]] |
-|      |       |               |
-|      |       |               |
+| Date | Topic | Link               |
+| ---- | ----- | ------------------ |
+| 8/25 | Intro | [[Ethics-N1]]      |
+| 8/27 |       | [[Ethics-N1#8-27]] |
+|      |       |                    |
+|      |       |                    |
+|      |       |                    |
 
 ## Assignments
 

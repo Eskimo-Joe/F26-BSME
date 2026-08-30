@@ -8,13 +8,13 @@ Syllabus
 
 ## Notes
 
-| Date | Topic | Link      |
-| ---- | ----- | --------- |
-| 8/25 |       | [[SD-N1]] |
-| 8/27 |       |           |
-| 9/01 |       |           |
-| 9/03 |       |           |
-|      |       |           |
+| Date | Topic                          | Link      |
+| ---- | ------------------------------ | --------- |
+| 8/25 | Brainstorming Capstone Project | [[SD-N1]] |
+| 8/28 |                                | [[SD-N1]] |
+| 9/01 |                                |           |
+| 9/04 |                                |           |
+|      |                                |           |
 
 ## Assignments
 
