@@ -1,7 +1,12 @@
 {
 	"nodes":[
-		{"id":"eea00c636c44279f","type":"text","text":"## M\n[[HT]]\n[[FEA]]\n## Tu\n[[Ethics]]\n[[SD]]\n## W\n[[HT]]\n[[FEA]]\n## Th\n[[Ethics]]\n## F\n[[SD]]","x":-240,"y":-120,"width":180,"height":680},
-		{"id":"e15376d068810e20","type":"text","text":"[To Do](F26-BSME/MISC/HW/HW.base)","x":-60,"y":-120,"width":250,"height":120}
+		{"id":"eea00c636c44279f","type":"text","text":"## M\n[[HT]]\n[[FEA]]","x":-240,"y":-120,"width":120,"height":160},
+		{"id":"3e11cf107cb62d4b","type":"text","text":"## W\n[[HT]]\n[[FEA]]","x":0,"y":-120,"width":120,"height":160},
+		{"id":"dfb2127a17e357b4","type":"text","text":"## Tu\n[[Ethics]]\n[[SD]]","x":-120,"y":-120,"width":120,"height":160},
+		{"id":"b13af9dfd041a0ca","type":"text","text":"## Th\n[[Ethics]]","x":120,"y":-120,"width":120,"height":160},
+		{"id":"1bf9205694f66790","type":"text","text":"## F\n[[SD]]","x":240,"y":-120,"width":120,"height":160},
+		{"id":"e15376d068810e20","type":"text","text":"[To Do](F26-BSME/MISC/HW/HW.base)","x":360,"y":-120,"width":120,"height":160},
+		{"id":"700601da832f76d6","x":-240,"y":40,"width":720,"height":420,"type":"file","file":"F26/F26-BSME/MISC/HW/HW.base"}
 	],
 	"edges":[]
 }

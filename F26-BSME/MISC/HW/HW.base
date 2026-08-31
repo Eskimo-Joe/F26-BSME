@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.path.startsWith("F26-BSME/MISC/HW")
+        - file.path.startsWith("F26/F26-BSME/MISC/HW")
         - file.name != "HW.base"
         - submitted != "T"
     order:
