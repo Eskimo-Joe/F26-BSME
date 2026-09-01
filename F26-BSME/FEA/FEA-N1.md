@@ -60,6 +60,17 @@ plug back into original equation
 ![[Pasted image 20260826193438.png|500]]
 
 
+## 8-31
+
+Check numerical answer from before 
+$$\theta \approx 53.7^{\circ}$$
+
+verify using Matlab Fzero
+
+![[Pasted image 20260831195233.png|400]]
+
+..
+
 
 
 

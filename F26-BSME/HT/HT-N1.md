@@ -92,5 +92,11 @@ $k_{diamond}=23 \frac{W}{mK}$
 water and copper
 
 
+## 8-31
+
+Missed 1hr of class.. 
+
+example problems
+
 
 

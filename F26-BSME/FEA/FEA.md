@@ -7,13 +7,13 @@ Syllabus
 
 ## Notes
 
-| Date | Topic | Link            |
-| ---- | ----- | --------------- |
-| 8/24 | Intro | [[FEA-N1]]      |
-| 8/26 |       | [[FEA-N1#8-26]] |
-|      |       |                 |
-|      |       |                 |
-|      |       |                 |
+| Date | Topic                            | Link            |
+| ---- | -------------------------------- | --------------- |
+| 8/24 | Intro                            | [[FEA-N1]]      |
+| 8/26 | Static vs Virtual Work           | [[FEA-N1#8-26]] |
+| 8/31 | Virtual Work vs Potential Energy | [[FEA-N1#8-31]] |
+|      |                                  |                 |
+|      |                                  |                 |
 
 ## Assignments
 
