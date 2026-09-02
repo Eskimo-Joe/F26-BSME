@@ -8,20 +8,24 @@ Tu/Th 12:30-1:45
 
 ## Notes
 
-| Date | Topic | Link               |
-| ---- | ----- | ------------------ |
-| 8/25 | Intro | [[Ethics-N1]]      |
-| 8/27 |       | [[Ethics-N1#8-27]] |
-|      |       |                    |
-|      |       |                    |
-|      |       |                    |
+| Date | Topic         | Link               |
+| ---- | ------------- | ------------------ |
+| 8/25 | Intro         | [[Ethics-N1]]      |
+| 8/27 |               | [[Ethics-N1#8-27]] |
+| 9/01 |               | [[Ethics-N1#9-01]] |
+| 9/03 | Practice Quiz |                    |
+|      |               |                    |
 
 ## Assignments
 
 ```dataview
 table date, submitted, src
-from "F26-BSME/MISC/HW" and #Ethics 
-sort due
-sort submitted
+from "F26/F26-BSME/MISC/HW"
+where class = "Ethics"
+sort date
+where submitted = "F"
 ```
+
+
+
 

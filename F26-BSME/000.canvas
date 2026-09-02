@@ -2,12 +2,13 @@
 	"nodes":[
 		{"id":"eea00c636c44279f","type":"text","text":"## M\n[[SD]]\n[[HT]]\n[[FEA]]","x":-240,"y":-120,"width":120,"height":160},
 		{"id":"3e11cf107cb62d4b","type":"text","text":"## W\n[[HT]]\n[[FEA]]","x":0,"y":-120,"width":120,"height":160},
-		{"id":"dfb2127a17e357b4","type":"text","text":"## Tu\n[[Ethics]]\n[[SD]]","x":-120,"y":-120,"width":120,"height":160},
+		{"id":"dfb2127a17e357b4","type":"text","text":"## Tu\n[[Ethics]]\n","x":-120,"y":-120,"width":120,"height":160},
 		{"id":"b13af9dfd041a0ca","type":"text","text":"## Th\n[[Ethics]]","x":120,"y":-120,"width":120,"height":160},
 		{"id":"1bf9205694f66790","type":"text","text":"## F\n[[SD]]","x":240,"y":-120,"width":120,"height":160},
-		{"id":"e15376d068810e20","type":"text","text":"[HW](F26-BSME/MISC/HW/HW.base)\n[[To Do]]\n[[SharkSat]]","x":360,"y":-120,"width":120,"height":160},
-		{"id":"700601da832f76d6","type":"file","file":"F26/F26-BSME/MISC/HW/HW.base","x":-240,"y":40,"width":380,"height":420},
-		{"id":"602b5202f44fadd8","x":140,"y":40,"width":340,"height":420,"type":"file","file":"F26/F26-BSME/SharkSat/SharkSat.md"}
+		{"id":"e15376d068810e20","type":"text","text":"[HW](F26-BSME/MISC/HW/HW.base)\n[[Work]]\n[[SharkSat]]","x":360,"y":-120,"width":120,"height":160},
+		{"id":"700601da832f76d6","type":"file","file":"F26/F26-BSME/MISC/HW/HW.base","x":-240,"y":40,"width":360,"height":420},
+		{"id":"02b443b854166cd1","x":120,"y":40,"width":360,"height":420,"type":"text","text":"### Reminders\n```tasks\npath does not include F26/F26-BSME/SharkSat/SharkSat.md\n```"},
+		{"id":"602b5202f44fadd8","type":"file","file":"F26/F26-BSME/SharkSat/SharkSat.md","x":480,"y":-120,"width":360,"height":580}
 	],
 	"edges":[]
 }

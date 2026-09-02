@@ -1,6 +1,6 @@
 ---
 class: Ethics
-date: 2026-08-27
+date: 2026-09-03
 submitted: F
 ---
 

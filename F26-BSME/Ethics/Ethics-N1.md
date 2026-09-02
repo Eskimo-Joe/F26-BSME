@@ -47,6 +47,42 @@ Introduce ethics, values, rights, good/moral
 	2. does not depend on social context
 
 
+## 9-01
+
+
+yap about primary sources
+
+Thursday practice quiz
+
+review Aristotle reading questions before and after reading
+
+notes on EE Reading:
+
+Codes of Ethics
+Engineering - the practical application of science + math to meet human needs
+
+Two ways to evaluate the effectiveness of engineering
+1. Technical - how well have we met the human need
+2. Ethical - how well does the technology support our values
+
+Ethics - an investigation of the source of our value + the content of our values
+
+Three approaches to ethics
+1. Aristotle's Virtue Ethics
+	1. What is a virtuous person? + how do we become that?
+2. Mill's Utilitarianism
+	1. 
+3. Kant's Deontology (Ethics of Duty)
+	1. There is a moral law + it is our duty to uphold the moral laws
+
+Professional Code of Ethics
+- Prohibitive
+- Preventive
+- Aspirational
+
+Prohibitive = Kant
+Preventive = Mill
+Aspirational = Aristotle
 
 
 
