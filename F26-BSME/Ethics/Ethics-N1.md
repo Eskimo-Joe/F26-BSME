@@ -85,4 +85,12 @@ Preventive = Mill
 Aspirational = Aristotle
 
 
+## 9-03
+
+zoom lecture
+
+introducing virtues stuff
+
+
+
 

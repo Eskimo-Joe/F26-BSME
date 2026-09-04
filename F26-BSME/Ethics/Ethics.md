@@ -13,7 +13,9 @@ Tu/Th 12:30-1:45
 | 8/25 | Intro         | [[Ethics-N1]]      |
 | 8/27 |               | [[Ethics-N1#8-27]] |
 | 9/01 |               | [[Ethics-N1#9-01]] |
-| 9/03 | Practice Quiz |                    |
+| 9/03 | Practice Quiz | [[Ethics-N1#9-03]] |
+| 9/08 |               |                    |
+| 9/10 |               |                    |
 |      |               |                    |
 
 ## Assignments

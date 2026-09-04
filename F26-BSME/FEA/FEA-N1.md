@@ -73,5 +73,14 @@ verify using Matlab Fzero
 
 
 
+## 9-02
+
+![[Pasted image 20260902190954.png]]
+
+![[Pasted image 20260902195858.png]]
+
+
+
+
 
 

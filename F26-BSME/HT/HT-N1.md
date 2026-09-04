@@ -100,3 +100,36 @@ example problems
 
 
 
+## 9-02
+
+33 mins late... 
+
+end of ch1
+
+Chapter 2: The Conduction Equation
+conductive heat transfer will be an ODE
+Since heat is a vector, we will define coordinate systems
+Generalized Fourier's Law
+How to solve 1-D heat conduction equation
+
+### Coordinate Systems
+- rectangular ($x,y,z$)
+- cylindrical ($r,\phi,z$)
+- spherical ($r,\phi,\theta$)
+
+Dimensionality of Heat Transfer 
+3D transient is the hardest to solve 
+transient = changes with time
+steady = does not change with time
+
+### Fourier's Law
+1D:
+$$\dot{Q}_{cond}=-kA \frac{dT}{dx}$$
+conduction flows perpendicular to isothermal surfaces
+
+$$\dot{Q}_{cond}=-kA \frac{dT}{dn}$$
+$\vec{n}$ is the unit normal vector of the isothermal surface
+
+$$\dot{Q}_{cond}=\dot{Q}_{x}\hat{i}+\dot{Q}_{y} \hat{j}+\dot{Q}_{z} \hat{k}$$
+
+
