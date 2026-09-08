@@ -9,7 +9,7 @@ RTX?
 random sampling design space
 training an ML model
 
-- [ ] Talk to Ryan about the boundary correction method for tap testing 📅 2026-09-04 
+- [x] Talk to Ryan about the boundary correction method for tap testing 📅 2026-09-04 ✅ 2026-09-05
 
 
 

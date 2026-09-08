@@ -6,6 +6,9 @@
 - [ ] Schedule Bonfire
 - [ ] Learn Ops stuff
 - [ ] Alum Sponsor Prez ⏳ 2026-09-10 
+- [ ] AIAA Branch prez
+- [ ] Vast Tour
+- [ ] Alumni Prez
 
 
 
