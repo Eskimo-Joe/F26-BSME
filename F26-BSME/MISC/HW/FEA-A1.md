@@ -1,7 +1,7 @@
 ---
 class: FEA
 date: 2026-09-09
-submitted: F
+submitted: T
 ---
 
 ## Read Sections 10.1-10.2A,B,C
