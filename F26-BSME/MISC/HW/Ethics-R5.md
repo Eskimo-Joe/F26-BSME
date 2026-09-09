@@ -4,7 +4,8 @@ date: 2026-09-10
 submitted: F
 ---
 
-Utilitarianism Journal #1 due
+
+Utilitarianism 
 EE Chapter 5
 Mill’s Utilitarianism pgs 1-18
 

@@ -92,5 +92,33 @@ zoom lecture
 introducing virtues stuff
 
 
+## 9-08
+
+Utilitarianism
+- aka consequentialism
+- setting the context
+	- sorry state of ethics
+		- "little progress" on the most fundamental question of right and wrong 
+	- solution: apply enlightenment principles
+		- apply scientific method to develop a science of ethics
+		- Mill's model is empirical sciences
+	- Mills goal for ethics
+		- to achieve objectivity in ethics by focusing on what is measurable
+		- empirical inquiry establishes happiness as the end of all action
+		- 8: producing happiness is the _ of morality
+		- how to measure happiness
+			- net pleasure: pleasure - pain = net
+		- 5: GHP - greatest happiness principle
+		- asdv
+
+- Objections of UT:
+	- "for pigs" by focusing on pleasure UT becomes a hedonistic theory
+		- Mill's response: collect preferences empirically 
+			- people's preferences are for higher pleasures
+	- "anything goes" UT seems to jutify clearly immoral actions if the consequences are sufficiently positive
+	- 
+
+
+
 
 

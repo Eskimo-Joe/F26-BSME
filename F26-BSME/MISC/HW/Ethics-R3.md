@@ -1,7 +1,7 @@
 ---
 class: Ethics
-date: 2026-09-08
-submitted: F
+date: 2026-09-10
+submitted: T
 ---
 
 EE Chapter 6 (second half)
