@@ -133,3 +133,47 @@ $\vec{n}$ is the unit normal vector of the isothermal surface
 $$\dot{Q}_{cond}=\dot{Q}_{x}\hat{i}+\dot{Q}_{y} \hat{j}+\dot{Q}_{z} \hat{k}$$
 
 
+## 9-09
+
+
+Heat generation
+can be from electrical heating, nuclear reactions, solar absorption
+
+Heat Conduction Equation (1D)
+
+$$\dot{Q}_{cond}=\frac{kA(T_{1}-T_{2})}{L}$$
+cannot determine temperature at distance and time
+cannot account for heat generation
+
+An ODE is required to determine temperatures at given locations and time
+
+$$\dot{Q}_{cond}=-kA \frac{dT}{dx}$$
+$$Q_{in}-Q_{out}+E_{gen}=\Delta E_{sys}$$
+$$\dot{Q}_{in}-\dot{Q}_{out}+\dot{E}_{gen}=\frac{dE_{sys}}{dt}$$
+$$\dot{Q}_{x}-\dot{Q}_{x+\Delta x}+A\Delta x \dot{e}_{gen}=\rho Vc_{p} \frac{dT}{dt}$$
+$$-\frac{\dot{Q}_{x+\Delta x}-\dot{Q}_{x}}{A\Delta x}+\dot{e}_{gen}=\rho c_{p} \frac{dT}{dt}$$
+by using the definition of a derivative we can sub out $\dot{Q}$
+
+$$- \frac{1}{A} \frac{d\dot{Q}_{x}}{dx}+\dot{e}_{gen}=\rho c_{p} \frac{dT}{dt}$$
+$$\frac{1}{A} \frac{d}{dx}\left(  kA \frac{dT}{dx} \right)+\dot{e}_{gen}=\rho c_{p} \frac{dT}{dt}$$
+rewrite as partial derivative
+$$\frac{1}{A} \frac{ \partial  }{ \partial x } \left( kA \frac{ \partial T }{ \partial x }  \right)+\dot{e}_{gen}=\rho c_{p} \frac{ \partial T }{ \partial t } $$
+Heat conduction equation ^ $T(x,t)$
+$$\frac{ \partial  }{ \partial x } \left( k \frac{ \partial T }{ \partial x }  \right)+ \dot{e}_{gen}=\rho c_{p} \frac{ \partial T }{ \partial t } $$
+generalization to 3D
+$$\frac{ \partial  }{ \partial x } \left( k \frac{ \partial T }{ \partial x }  \right)+\frac{ \partial  }{ \partial y } \left( k \frac{ \partial T }{ \partial y }  \right)+\frac{ \partial  }{ \partial z } \left( k \frac{ \partial T }{ \partial z }  \right)+ \dot{e}_{gen}=\rho c_{p} \frac{ \partial T }{ \partial t } $$
+
+Long Cylinder
+heat is only moving in radial direction, so it is a 1D heat transfer
+$$\frac{1}{A} \frac{ \partial  }{ \partial r } \left( kA \frac{ \partial T }{ \partial r }  \right)+\dot{e}_{gen}=\rho c_{p} \frac{ \partial T }{ \partial t } $$
+$$\frac{1}{r} \frac{ \partial  }{ \partial r } \left( kr \frac{ \partial T }{ \partial r } \right)+ \dot{e}_{gen}=\rho c_{p} \frac{dT}{dt}$$
+
+Sphere
+
+$$\frac{1}{r^2} \frac{ \partial  }{ \partial r } \left( kr^2 \frac{ \partial T }{ \partial r }  \right)+ \dot{e}_{gen}=\rho c_{p} \frac{ \partial T }{ \partial t } $$
+the constants of area cancel out, but must put variables where they do to take the proper derivative
+
+
+
+
+

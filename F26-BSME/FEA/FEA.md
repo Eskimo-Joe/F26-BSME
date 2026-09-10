@@ -13,6 +13,9 @@ Syllabus
 | 8/26 | Static vs Virtual Work           | [[FEA-N1#8-26]] |
 | 8/31 | Virtual Work vs Potential Energy | [[FEA-N1#8-31]] |
 | 9/02 |                                  | [[FEA-N1#9-02]] |
+| 9/09 |                                  | [[FEA-N1#9-09]] |
+|      |                                  |                 |
+|      |                                  |                 |
 |      |                                  |                 |
 
 ## Assignments

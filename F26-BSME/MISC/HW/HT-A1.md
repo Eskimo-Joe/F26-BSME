@@ -37,32 +37,63 @@ $$ Cost = (438kWh)(0.08 $/kWh)=$35.04$$
 Problem 3
 A 15-cm-diameter aluminum ball is to be heated from 80◦C to an average temperature of 200◦C. Taking the average density and specific heat of aluminum in this temperature range to be ρ = 2700 kg/m3 and cp = 0.90 kJ/(kg K),  respectively, determine the amount of energy that needs to be transferred to the aluminum ball.
 
-
-
+$$D= 0.15m,\quad T_{1}=80^{\circ}C,\quad T_{2}=200^{\circ}C$$
+$$\rho= 2700 \frac{kg}{m^3},\quad c_{p}=0.9 \frac{kJ}{kg\cdot K}$$
+$$V=\frac{4}{3}\pi r^3=\frac{4}{3}\pi(0.075m)^3=0.001767 m^3$$
+$$m=\rho V=\left( 2700 \frac{kg}{m^3} \right)(0.001767 m^3)=4.771kg$$
+$$Q=mc_{p}\Delta T=\left( 4.771 kg \right)\left( 0.9 \frac{kJ}{kg\cdot K} \right)(120K)=515kJ$$
 
 Problem 4
 In many manufacturing plants, individuals are often working around high temperature surfaces. Exposed hot surfaces that are potential for thermal burns on human skin tissue are considered to be hazards in the workplace. Metallic surface of temperature above 70◦C is considered extremely high temperature in the context of thermal burn, where skin tissue damage can occur instantaneously upon contact with the hot surface. Consider an AISI 1010 carbon steel strip 
 (ρ = 7832 kg/m3) of 2 mm thick and 3 cm wide that is conveyed into a chamber to be cooled at a constant speed of 1 m/s. The steel strip enters the cooling chamber at 597◦C. Determine the amount of heat rate that needed to be removed so that the steel strip exits the chamber at 47◦C to avoid instantaneous thermal burn upon accidental contact with skin tissue. Discuss how the conveyance speed can affect the heat rate needed to be removed from the steel strip in the cooling
 chamber.
-
-
 ![[Pasted image 20260909090547.png]]
 
+$$\rho=7832 \frac{kg}{m^3},\quad t=0.002m,\quad w=0.03m$$
+$$V=1 \frac{m}{s},\quad T_{in}=597^{\circ}C,\quad T_{out}=47^{\circ}C$$
+$$c_{p}=0.434 \frac{kJ}{kg\cdot K}$$
+$$A_{c}=tw=(0.002m)(0.03m)=6.0 \times 10^{-5}m^2$$
+$$\dot{m}=\left( 7832 \frac{kg}{m^3} \right)(6.0 \times 10^{-5}m^2)\left( 1 \frac{m}{s} \right)=0.4699 \frac{kg}{s}$$
+$$\dot{Q}=\dot{m} c_{p}(T_{in}-T_{out})=\left( 0.4699 \frac{kg}{s} \right)\left( 0.434 \frac{kJ}{kg\cdot K} \right)(597C-47C)=112kW$$
 
 
 Problem 5
 Air enters the duct of an air-conditioning system at 15 psia and 50◦F at a volume flow rate of 450 ft3/min. the diameter of the duct is 10 inches and heat is transferred to the air in the duct from the surroundings at a rate of 2 Btu/s. Determine (a) the velocity of the air at the duct inlet and (b) the temperature of the air at the exit.
+$$P= 15psia,\quad T_{1}=50^\circ F,\quad \dot{V}=450 \frac{ft^3}{min}$$
+$$D= 10in,\quad \dot{Q} = 2 \frac{Btu}{s}$$
+$$T_{1}=50+459.67=509.67R$$
+$$P=15 psia\left( 144 \frac{psfa}{psia} \right)=2160 \frac{lbf}{ft^3}$$
+$$\rho=\frac{\left( 2160 \frac{lbf}{ft^3} \right)}{\left( 53.35 \frac{ft\cdot lbf}{R\cdot lbm} \right)(509.67R)}=0.07944 \frac{lbm}{ft^3}$$
+$$A= \frac{\pi D^2}{4}=\frac{\pi\left( \frac{10}{12}ft \right)^2}{4}=0.5454ft^2$$
+$$\dot{V}=\frac{450ft^3}{60s}=7.5 \frac{ft^3}{s}$$
+$$V=\frac{\dot{V}}{A}=\frac{7.5 \frac{ft^3}{s}}{0.5454 ft^2}=13.75 \frac{ft}{s}$$
+
+$$\dot{m}=\rho \dot{V}=\left( 0.07944 \frac{lbm}{ft^3} \right)\left( 7.5 \frac{ft^3}{s} \right)=0.5958 \frac{lbm}{s}$$
+$$\dot{Q}=\dot{m}c_{p}(T_{2}-T_{1})$$
+$$\Delta T=\frac{\left( 2 \frac{Btu}{s} \right)}{\left( 0.5958 \frac{lbm}{s} \right)\left( 0.24 \frac{Btu}{lbm\cdot R} \right)}=13.99^{\circ}F$$
+$$T_{2}=T_{1}+\Delta T=50F+14F=64^\circ F$$
 
 
 Problem 6
 An aluminum pan whose thermal conductivity is 237 W/(m K) has a flat bottom with diameter 15 cm and thickness 0.4 cm. Heat is transferred steadily to boiling water in the pan through its bottom at a rate of 1400 W. If the inner surface of the bottom of the pan is at 105◦C, determine the temperature of the outer
 surface of the bottom of the pan.
 
+$$k=237 \frac{W}{mK},\quad D=0.15m,\quad L=0.004m$$
+$$\dot{Q}=1400W,\quad T_{inner}=105^\circ C$$
+$$A=\frac{\pi D^2}{4}=\frac{\pi(0.15m)^2}{4}=0.01767 m^2$$
+$$\dot{Q}=kA \frac{T_{outer}-T_{inner}}{L}$$
+$$\Delta T=\frac{\dot{Q}L}{kA}=\frac{(1400W)(0.004m)}{\left( 237 \frac{W}{mK} \right)(0.01767m^2)}=1.34 ^\circ C$$
+$$T_{outer}=T_{inner}+ \Delta T=105C+1.34C=106.3C$$
 
 
 Problem 7
 The north wall of an electrically heated home is 20 ft long, 10 ft high, and 1 ft thick, and is made of brick whose thermal conductivity is k = 0.42 Btu/(h ft ◦F). On a certain winter night, the temperatures of the inner and outer surfaces of the wall are measured to be at about 62◦F and 25◦F, respectively, for a period of 8 h.
 Determine (a) the rate of heat loss through the wall that night and (b) the cost of that heat loss to the home owner if the cost of electricity is $0.07/kW h.
+
+$$L=1ft,\quad A=(20ft)(10ft)=200ft^2$$
+$$k=0.42 \frac{Btu}{h\cdot ft ^\circ F}$$
+$$T_{i}=62^\circ F,\quad T_{o}=25 ^\circ F$$
+$$\dot{Q}=kA \frac{T_{i}-T_{o}}{L}=\left( 0.42 \frac{Btu}{h\cdot ft ^\circ F} \right)()$$
 
 
 
