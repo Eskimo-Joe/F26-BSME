@@ -5,10 +5,10 @@
 - [ ] Dr. Lee follow-up
 - [ ] Schedule Bonfire
 - [ ] Learn Ops stuff
-- [ ] Alum Sponsor Prez ⏳ 2026-09-10 
-- [ ] AIAA Branch prez
-- [ ] Vast Tour
-- [ ] Alumni Prez
+- [x] Alum Sponsor Prez ⏳ 2026-09-10 ✅ 2026-09-09
+- [x] AIAA Branch prez ✅ 2026-09-09
+- [x] Vast Tour ✅ 2026-09-09
+
 
 
 

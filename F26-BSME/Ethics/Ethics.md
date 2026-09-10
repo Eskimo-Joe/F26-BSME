@@ -25,7 +25,7 @@ table date, submitted, src
 from "F26/F26-BSME/MISC/HW"
 where class = "Ethics"
 sort date
-where submitted = "F"
+sort submitted
 ```
 
 
