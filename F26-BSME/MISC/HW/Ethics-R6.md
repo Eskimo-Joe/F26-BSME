@@ -1,11 +1,10 @@
 ---
 class: Ethics
-date: 2026-09-10
+date: 2026-09-15
 submitted: F
 ---
 
-Deontological Ethics
-EE Chapter 6 (first half)
-Kant’s Groundwork pgs 1-13
+Cost-Benefit Analysis Quiz #1
+EE Chapter 9
 
 

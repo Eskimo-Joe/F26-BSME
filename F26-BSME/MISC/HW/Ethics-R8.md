@@ -1,9 +1,9 @@
 ---
 class: Ethics
-date: 2026-09-15
+date: 2026-09-22
 submitted: F
 ---
 
-Challenger Case Study
-Columbia Case Study
+Risk and Uncertainty Journal #2 due
+EE Chapter 10
 

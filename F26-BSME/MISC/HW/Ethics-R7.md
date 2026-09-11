@@ -1,8 +1,8 @@
 ---
 class: Ethics
-date: 2026-09-15
+date: 2026-09-17
 submitted: F
 ---
 
-Cost-Benefit Analysis Quiz #1
-EE Chapter 9
+Challenger Case Study
+Columbia Case Study

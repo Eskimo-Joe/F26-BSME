@@ -1,10 +1,10 @@
 ---
 class: Ethics
-date: 2026-09-10
+date: 2026-09-15
 submitted: F
 ---
 
-Utilitarianism Journal #1 due
-EE Chapter 5
-Mill’s Utilitarianism pgs 1-18
+Deontological Ethics
+EE Chapter 6 (first half)
+Kant’s Groundwork pgs 1-13
 

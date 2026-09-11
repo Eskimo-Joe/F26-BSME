@@ -120,5 +120,18 @@ Utilitarianism
 
 
 
+## 9-10
+
+case studies in the next two weeks
+
+annotation check during quiz
+
+
+Deontology
+Deon - Duty
+Kants science of ethics
+
+
+
 
 

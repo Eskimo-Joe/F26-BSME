@@ -14,6 +14,8 @@ Syllabus
 | 8/28 |                                 | [[SD-N1]] |
 | 9/01 | Identifying an engineering need | [[SD-N2]] |
 | 9/04 |                                 | [[SD-N3]] |
+| 9/11 |                                 | [[SD-N4]] |
+|      |                                 |           |
 |      |                                 |           |
 |      |                                 |           |
 
