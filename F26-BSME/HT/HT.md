@@ -16,14 +16,18 @@ M/W 11a - 12:15
 | 8/31 |       | [[HT-N1#8-31]] |
 | 9/02 | Late  | [[HT-N1#9-02]] |
 | 9/09 |       | [[HT-N1#9-09]] |
-| 9/14 |       |                |
+| 9/14 |       | [[HT-N1#9-14]] |
+| 9/16 |       | [[HT-N2]]      |
+| 9/21 |       |                |
+| 9/23 |       |                |
 
 ## Assignments
 
 ```dataview
 table date, submitted, src
-from "F26-BSME/MISC/HW" and #HT 
-sort due
+from "F26/F26-BSME/MISC/HW"
+where class = "HT" 
+sort date
 sort submitted
 ```
 

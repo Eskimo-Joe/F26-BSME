@@ -89,6 +89,20 @@ Late for Vast
 
 
 
+## 9-14
+
+not paying attention
+
+
+
+## 9-16
+
+![[Pasted image 20260916193626.png]]
+
+![[Pasted image 20260916194404.png]]
+
+
+![[Pasted image 20260916210814.png]]
 
 
 

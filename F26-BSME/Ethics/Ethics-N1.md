@@ -132,6 +132,54 @@ Deon - Duty
 Kants science of ethics
 
 
+## 9-15
+
+transition into case studies
+
+took a quiz on cost benefit analysis
+
+took notes on CBA
+
+
+
+## 9-17
+
+yapppp about the exam
+
+
+notes about case studies
+
+basic template for analysis of case studies
+identify all relevant stakeholders in each case
+
+splitting NASA into more stakeholders
+
+shuttle disasters:
+- Nasa management
+- Nasa engineers
+- Morton Thiocol
+- Astronauts
+- US governments
+- Taxpayers
+
+consider 3 questions
+1. what are the morally relevant parts in each case
+2. Who if anyone is morally blameworthy in each case? 
+	1. did anything in the organizational culture make this disaster more likely?
+3. What should have been done differently, if anything?
+
+organization culture
+	is there a pattern or practice that made these disasters likely? 
+	divide between managers and engineers
+		different hats
+	abuse of inconclusive data
+		a
+	normalization of deviance
+
+
+
+
+
 
 
 

@@ -174,6 +174,30 @@ $$\frac{1}{r^2} \frac{ \partial  }{ \partial r } \left( kr^2 \frac{ \partial T }
 the constants of area cancel out, but must put variables where they do to take the proper derivative
 
 
+## 9-14
+
+11:27 start
+
+general solution of ODE
+$$\frac{d^2T}{dx^2}=0$$
+$$\int \frac{d}{dx}\left( \frac{dT}{dx} \right) \, dx =\int 0 \, dx $$
+$$\frac{dT}{dx}=C_{1}$$
+$$T(x)=C_{1}x+C_{2}$$
+apply boundary conditions to determine the unknown constants
+BC1
+$$-k \frac{dT}{dx}|_{x=0}=\dot{q}_{o}$$
+$$C_{1}=\frac{-\dot{q_{0}}}{k}$$
+BC2
+$$T|_{x=L}=T_{0}$$
+$$(C_{1}x+C_{2})|_{x=L}=T_{0}$$
+$$C_{2}=T_{0}+\frac{\dot{q}_{0}}{k}L$$
+....particular solution:
+$$T(x)=T_{0}+\frac{\dot{q}_{0}}{k}(L-x)$$
+$$T_{top}=T(x=0)$$
+$$T_{top}=T_{0}+\frac{\dot{q}_{0}}{k}L$$
+
+
+
 
 
 

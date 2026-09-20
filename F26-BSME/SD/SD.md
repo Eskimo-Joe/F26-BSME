@@ -15,7 +15,7 @@ Syllabus
 | 9/01 | Identifying an engineering need | [[SD-N2]] |
 | 9/04 |                                 | [[SD-N3]] |
 | 9/11 |                                 | [[SD-N4]] |
-|      |                                 |           |
+| 9/18 |                                 | [[SD-N5]] |
 |      |                                 |           |
 |      |                                 |           |
 
