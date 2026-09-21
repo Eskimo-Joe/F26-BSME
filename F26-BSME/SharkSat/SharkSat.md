@@ -1,20 +1,24 @@
 
 - [ ] GBM Workshop Session 2
-- [ ] install TD and SW into mini PC
-- [ ] check out SBL
 - [ ] update schedule and timeline
-- [ ] Plan Avionics Meeting
 - [ ] Post Flyers around skoo
-- [ ] Schedule Bonfire
+- [ ] Announce Bonfire
 - [ ] Learn Ops stuff
 - [ ] exploded view to kallie
+- [ ] install TD and SW into mini PC
+
+
+
+
+
+- [x] Plan Avionics Meeting ✅ 2026-09-20
 - [x] Alum Sponsor Prez ⏳ 2026-09-10 ✅ 2026-09-09
 - [x] AIAA Branch prez ✅ 2026-09-09
 - [x] Vast Tour ✅ 2026-09-09
 - [x] Dr. Lee follow-up ✅ 2026-09-14
 - [x] GBM 1 Slides ✅ 2026-09-14
 - [x] Tier 3 event for RTX ✅ 2026-09-16
-
+- [x] check out SBL ✅ 2026-09-20
 
 
 ## Paola Meeting 9-15
