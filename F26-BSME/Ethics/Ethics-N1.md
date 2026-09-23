@@ -178,8 +178,27 @@ organization culture
 
 
 
+## 9-22
 
+- [ ] buy green books by midterm
 
+went over midterm study guide
+start answers off strong
 
+Risk
+risk analysis is an attempt to save CBA from an objection
+objection: CbA is only a useful tool in contexts where risk and uncertainty are minimal or absent
+response: incorporate quantitative and/or qualitative risk assessments
+problems with risk assessment:
+1. confuse absolute risk and relative risk
+	1. solution: always consider risk relative to other options
+2. we overestimate subjective risk and underestimate objective risk
+
+tools for risk assessment
+1. quantitative: engineering definition of risk
+	1. multiply the probability of the event and the cost of the consequence
+2. qualitative: precautionary principle
+	1. "reasonable precautionary measures \[should be] taken to safeguard against uncertain but nonnegligible threats" (Peterson 149)
+3. 
 
 

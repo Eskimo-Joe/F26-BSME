@@ -1,16 +1,15 @@
 
-- [ ] GBM Workshop Session 2
 - [ ] update schedule and timeline
 - [ ] Post Flyers around skoo
 - [ ] Announce Bonfire
 - [ ] Learn Ops stuff
 - [ ] exploded view to kallie
-- [ ] install TD and SW into mini PC
 
 
 
 
 
+- [x] install TD and SW into mini PC ✅ 2026-09-21
 - [x] Plan Avionics Meeting ✅ 2026-09-20
 - [x] Alum Sponsor Prez ⏳ 2026-09-10 ✅ 2026-09-09
 - [x] AIAA Branch prez ✅ 2026-09-09

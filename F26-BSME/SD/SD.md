@@ -16,14 +16,15 @@ Syllabus
 | 9/04 |                                 | [[SD-N3]] |
 | 9/11 |                                 | [[SD-N4]] |
 | 9/18 |                                 | [[SD-N5]] |
-|      |                                 |           |
+| 9/21 |                                 |           |
 |      |                                 |           |
 
 ## Assignments
 
 ```dataview
 table date, submitted, src
-from "F26-BSME/MISC/HW" and #SD 
+from "F26/F26-BSME/MISC/HW"
+where class = "SD"
 sort due
 sort submitted
 ```

@@ -106,3 +106,17 @@ not paying attention
 
 
 
+
+## 9-21
+
+![[Pasted image 20260921193628.png]]
+
+...
+transformation matrix
+
+![[Pasted image 20260921195831.png]]
+
+![[Pasted image 20260921210518.png]]
+
+
+

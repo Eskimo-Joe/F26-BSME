@@ -106,4 +106,61 @@ so three resistors in series
 they add in series and in parallel! very simple
 
 
+## 9-21
+
+example problem
+
+car driving in freezing conditions
+air is -10C
+windshield accumulates ice bc air has humidity
+turn on the defrosters, forcing hot air onto the windshield
+
+draw windshield as a wall
+$k_{wall}=1.4 \frac{W}{mK}$
+outside air $T=-10C;\quad h_{0}=200 \frac{W}{m^2K}$
+Inside air $T=25C$
+find minimum enthalpy of inside air so windshield doesnt ice
+
+thickness of windshield $L=5mm$	
+
+Although not directly stated, should know the windshield needs to be >0C to prevent ice from forming
+
+thermal resistance network, three in series
+
+the ends have $T_{\infty}$ for the air temperatures, then solve for thermal resistance of the two convective heat transfers and conduction of the windshield
+
+$$R_{conv,out}=\frac{1}{h_{0}A}$$
+$$R_{cond,w}=$$
+$$R_{conv,in}=\frac{1}{h_{min}A}$$
+u want the heat loss of the exterior to equal the heat gained from the internal convection and windshield conduction
+
+$$\frac{T_{ice}-T_{out}}{R_{conv,1}}=\frac{T_{in}-T_{ice}}{R_{cond}+R_{conv,2}}$$
+$$\dot{Q}=\frac{0-(-10C)}{R_5\times 10^{-3} \frac{K}{W}}=2000W$$
+$$R_{cond}+R_{conv,2}=\frac{25C-0C}{2000W}$$
+$$R_{conv,2}=\frac{25}{2000}-R_{wall}=\frac{25}{2000}-3.57\times 10^{-3} \frac{K}{W}$$
+$$R_{conv,2}=8.93\times 10^{-3} \frac{K}{W}$$
+$$h_{min}=\frac{1}{R_{conv,2}A}=112 \frac{W}{m^2K}$$
+using $A=1m^2$ in all instances to simplify the calculation
+
+assume steady state to solve, even though it will take time to achieve steady state
+
+solving for the internal surface temp is not needed, but can be done easily
+
+use the resistance network and use $\dot{Q}=\frac{\Delta T}{R}$
+$T_{2}=7.14C$
+
+
+we can apply the same principles to multilayer plain walls
+
+some windshields will have a plastic layer
+its conduction will add a new resistor
+two contacting solids will have imperfect contact, so the resistance should be accounted for 
+
+contact resistance
+$$R_{c}\left[ \frac{Km^2}{W} \right]=R_{con}A_{c}$$
+$$R_{c}=5\times 10^{-6} - 5\times 10^{-4} \frac{m^2K}{W}$$
+use this form to add a resistor in your network:
+$$R_{con}=\frac{R_{c}}{A_{c}}$$
+
+
 

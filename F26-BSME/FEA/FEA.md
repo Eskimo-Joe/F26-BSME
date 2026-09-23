@@ -14,7 +14,10 @@ Syllabus
 | 8/31 | Virtual Work vs Potential Energy | [[FEA-N1#8-31]] |
 | 9/02 |                                  | [[FEA-N1#9-02]] |
 | 9/09 |                                  | [[FEA-N1#9-09]] |
-| 9/   |                                  |                 |
+| 9/14 |                                  | [[FEA-N1#9-14]] |
+| 9/16 |                                  | [[FEA-N1#9-16]] |
+| 9/21 | Continue Trusses                 | [[FEA-N1#9-21]] |
+| 9/23 |                                  |                 |
 |      |                                  |                 |
 |      |                                  |                 |
 
