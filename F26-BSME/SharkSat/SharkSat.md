@@ -2,6 +2,7 @@
 - [ ] update schedule and timeline
 - [ ] Post Flyers around skoo
 - [ ] Announce Bonfire
+- [ ] AIAA list
 - [ ] Learn Ops stuff
 - [ ] exploded view to kallie
 
