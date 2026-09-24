@@ -114,21 +114,52 @@ $$\dot{Q}=2\pi(30ft)\left( 7.2 \frac{Btu}{hft^\circ F} \right)(34.36)=4.66\times
 Problem 8
 Consider a large plane wall of thickness L = 0.05 m. The wall surface at x = 0 is insulated, while the surface at x = L is maintained at a temperature of 30◦C. The thermal conductivity of the wall is k = 30 W/(m K), and the heat is generated in the wall at a rate of ˙egen = ˙e0e−0.5x/L W/m3 where ˙e0 = 8 × 106 W/m3. Assuming steady one-dimensional heat transfer, (a) express the differential equation and the boundary conditions for heat conduction through the wall, (b) obtain a relation for the variation of temperature in the wall by solving the differential equation, and (c) determine the temperature of the insulated surface of the wall.
 
-
-
-
+$$L=0.05m,\quad k=30 \frac{W}{(mK)}$$
+$$\dot{e}_{gen}=\dot{e}_{0}e^{-0.5x/L}$$
+$$\dot{e}_{0}=8\times 10^6 \frac{W}{m^2}$$
+$$T(L)=30^\circ C$$
+$$\frac{d}{dx}\left( k \frac{dT}{dx} \right)+\dot{e}_{0}e^{-0.5x/L}=0$$
+$$k \frac{d^2T}{dx^2}+\dot{e}_{0}e^{-0.5x/L}=0$$
+$$\frac{dT}{dx}|_{x=0}=0$$
+$$T(L)=30^\circ C$$
+$$\frac{dT}{dx}=- \frac{2L\dot{e}_{0}}{k}(1-e^{-x/2L})$$
+$$T(x)=C_{2}- \frac{2L\dot{e}_{0}}{k}[x-2L(1-e^{-x/2L})]$$
+$$T(L)=30^\circ C$$
+$$T(x)=30+ \frac{2L\dot{e}_{0}}{k}[L-2L(1-e^{-0.5})-x+2L(1-e^{-x/2L})]$$
+$x=0$
+$$T(0)=30+ \frac{2L\dot{e}_{0}}{k}[L-2L(1-e^{-0.5})]=314.1^\circ C$$
 
 Problem 9
 A cylindrical nuclear fuel rod of 1 cm in diameter is encased in a concentric tube of 2 cm in diameter, where cooling water flows through the annular region between the fuel rod (k = 30 W/(m K)) and the concentric tube. Heat is generated uniformly in the rod at a rate of 50 MW/m3. The convection heat transfer coefficient 3 for the concentric tube surface is 2000 W/(m2 K). If the surface temperature of the concentric tube is 40◦C, determine the average temperature of the cooling water. Can one use the given information to determine the surface temperature of the fuel rod? Explain.
 
 ![[Pasted image 20260922211110.png]]
 
+$$D_{1}=1cm;\quad D_{2}=2cm$$
+$$r_{1}=0.005m;\quad r_{2}=0.01m$$
+$$\dot{e}_{gen}=50 \times 10^6 \frac{W}{m^3}$$
+$$h_{2}=2000 \frac{W}{m^2K}$$
+$$T_{s}=40^\circ C$$
+$$\dot{Q}'=\dot{e}_{gen}\pi r_{1}^2$$
+$$q_{2}''=\frac{\dot{Q}'}{2\pi r_{2}}=\frac{\dot{e}_{gen}r_{1}^2}{2r_{2}}=\frac{(50\times 10^6)(0.005)^2}{2(0.01)}=62500 \frac{W}{m^2}$$
+$$q_{2}''=h_{2}(T_{s}-T_{\infty})$$
+$$T_{\infty}=T_{s}-\frac{q_{2}''}{h_{2}}=40-\frac{62500}{2000}=8.75^\circ C$$
 
 Problem 10
 A circular metal pipe has a wall thickness of 10 mm and an inner diameter of 10 cm. The pipe’s outer surface is subjected to a uniform heat flux of 5 kW/m2 and has a temperature of 500◦C. The metal pipe has a variable thermal conductivity given as k(T ) = k0 (1 +β T ), where k0 = 7.5 W/(m K), β = 0.0012 K−1, and T is in
 K. Determine the inner surface temperature of the pipe.
 
 ![[Pasted image 20260922211140.png]]
+
+$$r_{1}=0.05m;\quad r_{2}=0.06m$$
+$$q''=5000 \frac{W}{m^2}$$
+$$T_{2}=500^\circ C=773.15K$$
+$$k(T)=k_{0}(1+\beta T)$$
+$$k_{0}=7.5 \frac{W}{mK};\quad \beta=0.0012 K^{-1}$$
+$$-k(T) \frac{dT}{dr}=- \frac{q''r_{2}}{r}$$
+$$k_{0}(1+\beta T)dT=q''r_{2}\ln\left( \frac{r_{2}}{r_{1}} \right)$$
+$$k_{0}\left[ (T_{2}-T_{1})+ \frac{\beta}{2}(T^2_{2}-T^2_{1}) \right]=q''r_{2}\ln\left( \frac{r_{2}}{r_{1}} \right)$$
+$$7.5\left[ (773.15-T_{1})+\frac{0.0012}{2}(773.15^2-T_{1}^2) \right]=5000(0.06)\ln\left( \frac{0.06}{0.05} \right)$$
+$$T_{1}=769.36K=496.2^\circ C$$
 
 
 
