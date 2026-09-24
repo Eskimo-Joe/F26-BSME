@@ -162,5 +162,62 @@ $$R_{c}=5\times 10^{-6} - 5\times 10^{-4} \frac{m^2K}{W}$$
 use this form to add a resistor in your network:
 $$R_{con}=\frac{R_{c}}{A_{c}}$$
 
+## 9-23
+
+generalized thermal resistance networks
+strictly speaking, resistance method only applies to 1-D, steady, $\dot{e}_{gen}=0$
+
+But can be extended to 2D/3D to get an approximate solution
+
+wall that is  a sandwich
+for half the length the insulation is multilayer $k_{1}$ and $k_{2}$
+for half the length the insulation is $k_{3}$
+not only will both halves have different conductivities and contact resistance, but the two halves will exchange heat with each other
+
+model the multilayer as parallel resistors
+
+1-D cylinder HT
+inside: $T_{1}$
+outside: $T_{2}$
+
+$$\dot{Q}_{r}=-kA \frac{dT}{dr}$$
+$$\dot{Q}_{r}=\frac{T_{1}-T_{2}}{R_{cyl}}$$
+$$\int \frac{\dot{Q}_{r}}{r} \, dr=-2\pi \int _{T_{1}}^{T_{2}}  kL\, dT $$
+$$\dot{Q}_{r}\ln\left( \frac{r_{2}}{r_{1}} \right)=2\pi kL(T_{1}-T_{2})$$
+$$\dot{Q}_{r}=\frac{T_{1}-T_{2}}{\frac{\ln\left( \frac{r_{2}}{r_{1}} \right)}{2\pi kL}}$$
+$$R_{cyl}=\frac{\ln\left( \frac{r_{2}}{r_{1}} \right)}{2\pi kL}$$
+
+sphere
+$$A=4\pi r^2$$
+$$R_{sph}=\frac{r_{2}-r_{1}}{4\pi r_{1}r_{2}k}$$
+
+example
+
+cylinder with aluminum on bottom half, aluminum on inside of top half, copper on outside of top half
+$r_{2}$ is the outside of aluminum radius
+$r_{3}$ is outside of the copper
+$$r_{1}=3cm;\quad r_{2}=5cm;\quad r_{3}=6cm$$
+$$h_{1}=1000 \frac{W}{m^2K}$$
+$$T_{\infty,1}=150C;\quad h_{2}=20 \frac{W}{m^2K}$$
+$$T_{\infty,2}=25C$$
+find heat loss per unit length ($\dot{Q}$)
+find $\Delta T$ across the interface of the Al and Cu
+
+steady heat transfer
+2-D problem since there is not axissymetry
+$\dot{e}_{gen}=0$
+
+start by drawing resistor network
+internal fluid convection to aluminum
+conduction through aluminum
+then two resistors in parallel to convect to the outside and contact resistance to aluminum 
+the contact resistor will have another resistor 
+to conduct through copper
+then copper will convect
+
+problems like this assume the outside surface is uniform temperature, even if not realistic
+
+...
+double the resistance because area is half since pipe is divided in 2
 
 
