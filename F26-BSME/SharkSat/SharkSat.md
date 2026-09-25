@@ -1,15 +1,16 @@
 
-- [ ] update schedule and timeline
-- [ ] Post Flyers around skoo
-- [ ] Announce Bonfire
+- [ ] GBM 3 Slides
 - [ ] AIAA list
 - [ ] Learn Ops stuff
+- [ ] update schedule and timeline
+
+- [ ] Post Flyers around skoo
 - [ ] exploded view to kallie
 
 
 
 
-
+- [x] Announce Bonfire ✅ 2026-09-24
 - [x] install TD and SW into mini PC ✅ 2026-09-21
 - [x] Plan Avionics Meeting ✅ 2026-09-20
 - [x] Alum Sponsor Prez ⏳ 2026-09-10 ✅ 2026-09-09
@@ -51,5 +52,11 @@ fwd all faculty advisors
 - [ ] Can we have a SharkSat workspace in one of the labs? 
 - [ ] initiating a purchase with our Agency account
 - [ ] Location of next GBM
+
+
+## Dr Liu 9-30
+- [ ] Discuss usage of SBL
+- [ ] update on cleanroom
+- [ ] sky fox labs purchase
 - [ ] 
 
