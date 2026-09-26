@@ -3,7 +3,9 @@
 - [ ] AIAA list
 - [ ] Learn Ops stuff
 - [ ] update schedule and timeline
-
+- [ ] Schedule time with Pedro for test planning
+- [ ] Ask KeSean about notion
+- [ ] Ask Dennis about test planning
 - [ ] Post Flyers around skoo
 - [ ] exploded view to kallie
 
