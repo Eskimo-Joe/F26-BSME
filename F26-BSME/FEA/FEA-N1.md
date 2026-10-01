@@ -124,4 +124,14 @@ transformation matrix
 ![[Pasted image 20260923192655.png]]
 
 
+## 9-28
+
+![[Pasted image 20260928190950.png]]
+
+![[Pasted image 20260928200323.png]]
+
+
+
+
+
 

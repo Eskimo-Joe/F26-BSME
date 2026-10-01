@@ -221,3 +221,62 @@ problems like this assume the outside surface is uniform temperature, even if no
 double the resistance because area is half since pipe is divided in 2
 
 
+## 9-28
+
+43 mins late 
+
+convection problem with fins
+$$\dot{Q}=hA(T_{s}-T_{\infty})$$
+larger fins will increase Area but is likely to decrease average surface temperature
+differential equations used to estimate heat loss 
+
+fin equation
+a fin is a cantilever beam in 3D
+conduction from base to tip of fin
+all 5 surfaces of the fin are convecting heat
+we will analyze a short element with equal section as the fin
+temperature will only be a function of x, axis from base to tip
+cross section will have uniform temperature
+
+heat going into element is conduction from behind elements
+heat loss from the front is conducted to next element
+convection will be heat loss on the four remaining sides
+$$\dot{Q}_{conv}=h_{c}A(T_{}-T_{\infty})$$
+energy balance
+$$\dot{E}_{in}=\dot{E}_{out}$$
+$$\dot{Q}_{cond,x}=\dot{Q}_{cond,x+dx}+hP\Delta x(T(x)-T_{\infty})$$
+$P$ - perimeter of the fin
+divide by $\Delta x$ and take limit to zero
+
+$$0=\frac{d}{dx}\dot{Q}_{cond,x}+hP(T-T_{\infty})$$
+$$\frac{d}{dx}\left( kA_{c} \frac{dT}{dx} \right)-hP(T-T_{\infty})=0$$
+general fin equation
+
+$$\frac{d^2}{dx^2} - \frac{L}{kA_{c}}$$
+$$\theta=T-T_{\infty};\quad m=\sqrt{ \frac{hP}{kA_{c}} }$$
+$$d^2 \frac{\theta}{dx^2}-m^2\theta=0$$
+$$\theta(x)=C_{1}e^{mx}+C_{2}e^{-mx}$$
+boundary conditions 
+$x=0$ is the base
+$$T(0)=T_{b}$$
+$x=L$ is the tip
+more complicated 
+we will try four different options for tip BC
+
+Case 1: Long fin ($L\to \infty$)
+$$T(L)=T_{\infty}$$
+$$\theta_{L}=0$$
+$$0=C_{1}e^{mx}+C_{2}e^{-mx}$$
+$$C_{1}=0;\quad C_{2}=?$$
+$$\theta(0)=\theta_{b}$$
+$$C_{2}=\theta_{b}$$
+$$\theta_{b}=C_{2}e^{-mx}$$
+$$\theta=\theta_{b}e^{0mx}$$
+$$\frac{T-T_{\infty}}{T_{b}-T_{\infty}}=e^{-x\sqrt{ hP/kA_{c} }}$$
+
+
+## 9-30
+
+
+
+

@@ -56,9 +56,31 @@ fwd all faculty advisors
 - [ ] Location of next GBM
 
 
+## Paola 9-29
+- [x] bank account for AeroSharks ✅ 2026-09-29
+- [x] Tier 3 event request for Jaime October 19th (email) ✅ 2026-09-29
+- [x] SkyFox Labs Purchase (email) ✅ 2026-09-29
+- [x] Where did $5,000 grant come from? (email) ✅ 2026-09-29
+- [ ] how to do small purchases (like Amazon < $1000)
+- [ ] reimbursements
+
+
+
+
 ## Dr Liu 9-30
 - [ ] Discuss usage of SBL
 - [ ] update on cleanroom
-- [ ] sky fox labs purchase
-- [ ] 
+- [ ] sky fox labs purchase - waiting for Paola
+- [ ] IRA Funds - $17,549
+- [ ] 5 PC RTX 5070 32GB RAM
+- [ ] PC 512 GB RAM Threadripper GPU 
+
+
+
+
+
+
+
+## Dr Lee 9-30
+
 

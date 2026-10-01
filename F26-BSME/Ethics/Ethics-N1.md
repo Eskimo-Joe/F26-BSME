@@ -202,3 +202,48 @@ tools for risk assessment
 3. 
 
 
+## 9-24
+ditched
+
+
+## 9-29
+
+go over study guide
+no heilbroner on midterm
+kant, mill, aristotle is the focus
+
+be here on time
+get a green book
+write in pens
+skip lines
+answer the whole question
+try not to skip questions, go for partial credit
+start answers strongly
+number answers in green book so its clear
+
+Part 1: choose 3 out of 4 questions (12 mins total, 2-3 sentences each)
+
+Structure definitions like so
+1. General definition
+2. Go further into detail
+3. why is it important for our class? significance
+
+Categorical imperative:
+The categorical imperative is Kant's attempt to provide a rational account of moral laws and our duty to uphold the law. The first version of the categorical imperative is universal ; . The significance of CI is that these two versions provide the universal rational rules for morality established by Kant's science of ethics.
+
+Morally relevant facts:
+MRF are facts or events that carry moral importance beyond their technical importance. These facts can be morally important from one or more of the several ethical perspectives. MRF are significant because a truly moral analysis cannot be conducted without the basis of morally relevant facts. 
+
+Aristotle's feedback loop:
+predispositions lead to actions and actions lead to predispositions
+
+
+Part 2: passage explications, pick 2/3, (24 mins total, 1-2 paragraphs)
+stay focused on the passage
+
+Part 3: choose options a or b 
+
+
+## 10-01
+
+
