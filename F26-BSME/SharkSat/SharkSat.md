@@ -1,9 +1,13 @@
 
-- [ ] GBM 3 Slides
+
+- [ ] **Epsilon3 Setup**
+- [ ] **Finish Donor CDR slides**
+- [ ] **Make a flyer for CECS for Marina to send; Possibly two, one to target upperclassmen and one to target underclassmen**
+- [ ] CashNet submission
+- [ ] Create and Activate the AeroSharks form
 - [ ] AIAA list
 - [ ] Learn Ops stuff
 - [ ] update schedule and timeline
-- [ ] Schedule time with Pedro for test planning
 - [ ] Ask KeSean about notion
 - [ ] Ask Dennis about test planning
 - [ ] Post Flyers around skoo
@@ -12,6 +16,9 @@
 
 
 
+
+- [x] Schedule time with Pedro for test planning ✅ 2026-10-02
+- [x] GBM 3 Slides ✅ 2026-10-02
 - [x] Announce Bonfire ✅ 2026-09-24
 - [x] install TD and SW into mini PC ✅ 2026-09-21
 - [x] Plan Avionics Meeting ✅ 2026-09-20
