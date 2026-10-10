@@ -1,22 +1,25 @@
 
 
 - [ ] **Epsilon3 Setup**
-- [ ] **Finish Donor CDR slides**
 - [ ] **Make a flyer for CECS for Marina to send; Possibly two, one to target upperclassmen and one to target underclassmen**
-- [ ] CashNet submission
+- [ ] Structures Onboarding document
 - [ ] Create and Activate the AeroSharks form
-- [ ] AIAA list
 - [ ] Learn Ops stuff
-- [ ] update schedule and timeline
-- [ ] Ask KeSean about notion
+- [ ] Notionnnn
 - [ ] Ask Dennis about test planning
 - [ ] Post Flyers around skoo
 - [ ] exploded view to kallie
+- [ ] AIAA list
 
 
 
 
 
+
+- [x] Contact Dr Allen about advertising ✅ 2026-10-09
+- [x] CashNet submission ✅ 2026-10-09
+- [x] Ask KeSean about notion ✅ 2026-10-09
+- [x] **Finish Donor CDR slides** ✅ 2026-10-09
 - [x] Schedule time with Pedro for test planning ✅ 2026-10-02
 - [x] GBM 3 Slides ✅ 2026-10-02
 - [x] Announce Bonfire ✅ 2026-09-24
